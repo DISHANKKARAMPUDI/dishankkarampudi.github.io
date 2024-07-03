@@ -186,6 +186,8 @@ nav ul li {
 .projects-container {
   display: flex;
   align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   justify-content: center;
 }
 
