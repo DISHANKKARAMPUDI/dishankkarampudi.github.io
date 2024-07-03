@@ -27,7 +27,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
 
 ul {
@@ -184,8 +183,7 @@ nav ul li {
 }
 
 .projects-container {
-  display: flex;
-  align-items: center;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   justify-content: center;
@@ -198,7 +196,7 @@ nav ul li {
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
+  width: 100%;
   padding: 1rem;
 }
 
@@ -399,11 +397,11 @@ footer {
   }
 
   .projects-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .project-container {
-    width: 20.875rem;
+    width: 100%;
   }
 
   .contact-form-container {
@@ -422,7 +420,7 @@ footer {
   }
 
   .project-container {
-    width: 17.875rem;
+    width: 100%;
   }
 
   .contact-form-container {
