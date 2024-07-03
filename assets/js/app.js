@@ -29,3 +29,9 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+document.addEventListener('DOMContentLoaded', () => {
+            const paragraphs = document.querySelectorAll('.more-about p');
+            paragraphs.forEach(paragraph => {
+                paragraph.innerHTML = `<strong>${paragraph.innerHTML}</strong>`;
+            });
+        });
