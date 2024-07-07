@@ -357,6 +357,60 @@ footer {
   margin: 10px;
 }
 
+/* GitHub Projects Section */
+.github-projects {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.github-projects-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.github-projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.github-project-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 80%;
+  max-width: 1000px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.github-project-pic {
+  width: 40%;
+  object-fit: cover;
+}
+
+.github-project-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.github-project-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.github-project-description {
+  font-size: 1em;
+  color: #555;
+}
+
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
   nav {
@@ -430,6 +484,17 @@ footer {
 
   .contact-form-container {
     max-width: 23.75rem;
+  }
+}
+
+
+  /* GitHub Projects Section */
+  .github-project-card {
+    flex-direction: column;
+  }
+
+  .github-project-pic {
+    width: 100%;
   }
 }
 
