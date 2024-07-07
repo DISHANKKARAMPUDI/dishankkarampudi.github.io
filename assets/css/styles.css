@@ -390,7 +390,7 @@ footer {
 
 .github-project-pic {
   width: 40%;
-  object-fit: cover;
+   margin: auto;
 }
 
 .github-project-details {
@@ -494,7 +494,7 @@ footer {
   }
 
   .github-project-pic {
-    width: 100%;
+    width: 15%;
   }
 }
 
