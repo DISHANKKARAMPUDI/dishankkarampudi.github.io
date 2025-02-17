@@ -1,8 +1,8 @@
-# DISHANK'S PORTFOLIO
-
-## Github repo
-
-This is the [link](https://github.com/DISHANKKARAMPUDI/dishankkarampudi.github.io.git) to the Github repo of the project
+📂 What You’ll Find Here
+This GitHub portfolio highlights:
+✅ My major industry experiences in Data Science, Machine Learning, and Business Intelligence
+✅ College (Bachelor’s) projects, showcasing my expertise in AI, Data Engineering, and Software Development
+✅ Many other interesting projects can be found in my resume and GitHub repositories
 
 
 
